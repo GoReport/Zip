@@ -53,7 +53,6 @@ internal class ZipUtilities {
             }
             else {
                 let directoryContents = expandDirectoryFilePath(path)
-                processedFilePaths.appendContentsOf(directoryContents)
             }
         }
         return processedFilePaths
