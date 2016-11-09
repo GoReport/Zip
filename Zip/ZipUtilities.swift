@@ -44,9 +44,6 @@ internal class ZipUtilities {
                 let processedPath = ProcessedFilePath(filePathURL: path, fileName: path.lastPathComponent)
                 processedFilePaths.append(processedPath)
             }
-            else {
-                let directoryContents = expandDirectoryFilePath(path)
-            }
         }
         return processedFilePaths
     }
